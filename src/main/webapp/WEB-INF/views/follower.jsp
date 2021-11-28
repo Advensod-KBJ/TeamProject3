@@ -28,7 +28,7 @@
 								<div class="img_box">
 									<div>
 										<a>
-											<img style="width: 60px;"src="/img/${list.client_img}" onclick="location.href='userProfile?client_id=${list.client_id }'">
+											<img style="width: 60px; height: 60px;"src="/img/${list.client_img}" onclick="location.href='userProfile?client_id=${list.client_id }'">
 										</a>
 									</div>
 								</div>
@@ -37,7 +37,7 @@
 								<div class="user_id">
 									<div>
 										<span>
-											<a href="userProfile?client_id=${list.client_id }">${list.client_id }</a>
+											<a href="/starting/userProfile?client_id=${list.client_id }">${list.client_id }</a>
 										</span>
 									</div>
 								</div>

@@ -20,7 +20,7 @@
 				<div>
 					<form class="d-flex" action="main" method="post"
                   name="formname" accept-charset="UTF-8">
-                  <input class="form-control me-2 searchbox" type="text"
+                  <input class="form-control me-2 searchbox" type="text" style="width: 200px; margin-left: 289px;"
                      onkeyup="enterkey()" name="search_name" placeholder="검색">
                   <button id="header-search-button" class="header-search-button">
                      <img class="fixed-search-icon" alt="Search"

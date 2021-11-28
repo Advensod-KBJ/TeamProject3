@@ -110,7 +110,7 @@
 
 																<div class="C4VMK">
 																		<div>
-																	<h3 class="_6lAjh ">
+																	<h3 class="_6lAjh " style="margin-left: 0px;">
 																			<span><a style="font-size: 15px;"  href="/starting/userProfile?client_id=${comment.comment_id }">${clientlist.get(status.count-1).client_name }</a></span>
 																		</div>
 																	</h3>
@@ -127,8 +127,10 @@
 																				type="submit" value="수정하기">
 																		</form>
 																	</div>
+																</div>
+																<div style="width: 195px; position: absolute;"></div>
 																	<c:if test="${client.client_id eq comment.comment_id }">
-																	<div style="display: flex; flex-direction: row;">
+																	<div class="UD">
 																		<svg  class="_8-yf5 " onclick="modity('${comment.comment_no }')"
 																			color="#262626" fill="#262626" height="24" role="img"
 																			viewBox="0 0 24 24" width="24">
@@ -150,7 +152,6 @@
 																				src="${pageContext.request.contextPath}/resources/img/x.png">
 																		</div>
 																	</c:if>
-																</div>
 															</div>
 														</li>
 													</div>

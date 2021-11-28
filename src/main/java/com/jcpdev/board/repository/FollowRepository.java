@@ -36,7 +36,7 @@ public interface FollowRepository extends JpaRepository<FollowEntity, Integer> {
 	@Transactional
 	@Modifying
 	@Query("delete from FollowEntity f where f.follow.client_id  = :other_id and f.following_id = :myId ")
-	String unFollow(@Param("other_id") String other_id, @Param("myId") String myid);
+	void unFollow(@Param("other_id") String other_id, @Param("myId") String myid);
 	
 	@Query("select f.follow_no from FollowEntity f where f.follow.client_id  = :other_id and f.following_id = :myId ")
 	Integer un_Follow(@Param("other_id") String other_id, @Param("myId") String myid);

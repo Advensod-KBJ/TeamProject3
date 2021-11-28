@@ -151,6 +151,8 @@ article {
     width: auto;
 }
 .section-recommend {
+	height: 380px;
+    overflow: auto;
 }
 /* article */
 header {
