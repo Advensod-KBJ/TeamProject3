@@ -104,7 +104,7 @@ public class ClientController {
 			return "alertLogin";
 		}
 	}
-
+	//test
 	// 회원가입
 	@RequestMapping(value = "/starting/register", method = RequestMethod.POST)
 	public String sign_up(Client client, Model model) throws NoSuchAlgorithmException {
